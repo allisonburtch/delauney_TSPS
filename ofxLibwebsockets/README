@@ -1,0 +1,27 @@
+RECOMMENDED: Checkout the newer and likely closer maintained addon here (also supports Windows):
+https://github.com/labatrockwell/ofxLibwebsockets
+
+
+
+
+
+
+
+An exercise to implement libwebsockets (http://git.warmcat.com/cgi-bin/cgit/libwebsockets/)  with openFrameworks 007 (http://www.openframeworks.cc/download)
+
+The app is simply a port of the test-server.c that is packaged with libwebsockets. 
+
+http://git.warmcat.com/cgi-bin/cgit/libwebsockets/snapshot/support-protocol-v8-chrome-15-firefox-6.tar.gz
+
+You may want to check out Paul Reimer's versions from which this version of ofxWebSocketServer is derived
+https://github.com/paulreimer/ofxWebUI
+https://github.com/paulreimer/ofxWebUI-libs
+
+11.15.2011
+Updated for openFrameworks 007 and Protocol v8
+
+INSTRUCTIONS:
+Compile and run the app and open a Websockets enabled browser (Chrome, Safari 5.05, Safari on iOS 4.2) and point to http://localhost:7681/test.html
+
+You can draw on the canvas and see the strokes written to the openFrameworks app.
+
